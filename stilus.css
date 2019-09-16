@@ -3,8 +3,28 @@ h1{
 }
 
 p{
-    background-color:hsl(198, 50%, 34%);
+    background-color:rgb(49, 4, 4);
 }
 a{
     text-decoration: overline;
+}
+table, th, td{
+    border: 1px solid brown
+
+}
+table, th, td
+{
+    border-collapse: collapse;
+    padding: 25px;
+    text-align: right;
+}
+
+tr :nth-child(even){
+    background-color: blueviolet
+}
+table :nth-child(even){
+    background-color: yellow
+}
+td :nth-child(even){
+    background-color: grey
 }
