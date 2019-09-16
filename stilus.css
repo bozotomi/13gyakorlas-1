@@ -1,0 +1,10 @@
+h1{
+    color: blue;
+}
+
+p{
+    background-color:hsl(198, 50%, 34%);
+}
+a{
+    text-decoration: overline;
+}
